@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Daily Activity Reporter",
+  "description": "A simple and professional mobile application for recording daily activities, including calls, guests, enrollments, inquiries, and tasks, generating a formal PDF summary report with optional AI-assisted notes refining.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
