@@ -396,9 +396,9 @@ export default function ActivityLogger({
       </div>
 
       {/* Forms and Active Logs list */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+      <div className="flex flex-col gap-6">
         {/* Left column: Logging Form */}
-        <div className="lg:col-span-7 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-6 shadow-sm">
+        <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-6 shadow-sm">
           <AnimatePresence mode="wait">
             {activeSubTab === 'call' && (
               <motion.form
@@ -974,7 +974,7 @@ export default function ActivityLogger({
         </div>
 
         {/* Right column: List of today's active logs */}
-        <div className="lg:col-span-5 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-6 shadow-sm flex flex-col justify-between max-h-[580px]">
+        <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-6 shadow-sm flex flex-col justify-between">
           <div>
             <h4 className="text-sm font-bold text-slate-800 dark:text-slate-100 mb-4 flex items-center justify-between">
               <span>Today's Active Logs ({
